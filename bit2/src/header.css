@@ -1,0 +1,100 @@
+
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  color: black;
+  font-family: sans-serif;
+  padding: 0 30px;
+  box-sizing: border-box;
+  stroke-width: 800;
+  position: fixed;
+  top: 0;
+}
+
+.navLeft {
+  width: 110px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto 0;
+  gap: 10px;
+  padding: 20px 0;
+  box-sizing: border-box;
+  /* background-color: aquamarine; */
+}
+
+
+.navLeft .box {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 12.5px;
+  margin-top: -15px;
+  color: #fff;
+  background-image: linear-gradient(rgba(152, 0, 0, 1), rgba(255, 217, 118, 1));
+}
+
+.LevelBox {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+  margin: auto;
+  box-sizing: border-box;
+  /* background-color: aquamarine; */
+}
+
+.gameAvatar {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: auto 0;
+}
+
+.righthead {
+  width: 40px;
+  height: auto;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.righthead .pause {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin: auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+  .LevelBox {
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+  
+  }
+
+  .righthead {
+    width: 40px;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+    margin-right: 55px;
+  }
+}
